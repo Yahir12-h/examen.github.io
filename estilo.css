@@ -1,0 +1,87 @@
+/* Estilo base */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1d1d1d;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Centra todo el contenido del header */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo y nombre */
+.logo-nombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 70px; /* Aumenté un poco el tamaño del logo */
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 32px; /* Tamaño más grande para el nombre */
+    margin: 0;
+    font-weight: 600;
+}
+
+/* Menú de navegación */
+nav {
+    margin-top: 15px;
+}
+
+.menu-horizontal {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+.menu-horizontal a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.menu-horizontal a:hover {
+    color: #f4d03f;
+    transform: scale(1.1);
+}
+h3 {
+    font-size: 25px; 
+    margin: 0;
+    font-weight: 600;
+    
+}
+
+  
+
+h2 {
+    font-size: 22px; /* Tamaño más grande para el nombre */
+    margin: 0;
+    font-weight: 600;
+}
+
+
+
